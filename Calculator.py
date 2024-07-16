@@ -5,9 +5,13 @@ def getinput():
     result=""
     if operator== "+":
         result= int(first) + int(third)
-    else:
+    elif operator== "*":
+        result= int(first) * int(third)
+    elif operator== "-":
         result= int(first) - int(third)
-        
+    elif operator== "/":
+        result= int(first) / int(third)
+
     print(result)
     return result
     
